@@ -13,6 +13,7 @@ Code Examples: function initializePage(getUserCards, getUserProfile) {
         .catch((err) => console.error(`Ошибка: ${err}`));
 }.
 
+
 Work Experience : I am a beginner specialist.
 Educationе: Yndex Practicum.
 English Language: A2.
