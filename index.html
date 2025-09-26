@@ -1,26 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>CV</title>
-    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adel Khabibullin | rsschool-cv</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Khabibullin Adel.</h1>
-    <p>
-      tel. +79375297388. I am a beginner specialist in front-end development, I
-      have been studying for a year in this specialty. Skills: HTML, CSS, JS,
-      TS.
-    </p>
-    <p>
-      Code Examples: function initializePage(getUserCards, getUserProfile) {
-      Promise.all([getUserCards(), getUserProfile()]) .then(([cards, userData])
-      => { cards.forEach((cardData) => { placesList.append(createCard(cardData,
-      toogleLikeCard, zoomImage, deleteModal, userData._id)); });
-      updateProfile(userData); }) .catch((err) => console.error(`Ошибка:
-      ${err}`)); }. Work Experience : I am a beginner specialist. Educationе:
-      Yndex Practicum. English Language: A2.
-    </p>
+    <div class="container-lg px-3 my-5 markdown-body">
+      <h1>
+        <a href="https://themrcrowley.github.io/rsschool-cv/">rsschool-cv</a>
+      </h1>
+      <h1 id="denis-mythnik">Khabibullin Adel</h1>
+      <h1 id="my-contact-info">My Contact Info:</h1>
+      <ul>
+        <li><strong>Phone:</strong> +79375297388</li>
+        <li>
+          <strong>E-mail:</strong>
+          <a>wkolawkola@gamil.com</a>
+        </li>
+        <li>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/Ade1KH">AdelKH</a>
+        </li>
+      </ul>
+      <h1 id="about-me">About Me</h1>
+      <p>
+        I am 31 years old, I work as a design engineer. I think that my actual
+        job will lead me to stagnation some day or other. I really need in
+        activities where I can develop during my life. That is why I`m here. My
+        goal is to gain knowledge in the field of front-end development.
+      </p>
+      <ul>
+        <li>
+          <strong>My strengths:</strong>
+          <ul>
+            <li>Quick learner</li>
+            <li>Full immersion in the essence of the problems</li>
+            <li>Diligence</li>
+            <li>Team playing</li>
+          </ul>
+        </li>
+      </ul>
+      <blockquote>
+        <p><strong>Keep learning…</strong></p>
+      </blockquote>
+      <h1 id="skills">Skills</h1>
+      <ul>
+        <li>HTML</li>
+        <li>CSS (Bootstrap, SASS/SCSS, BEM)</li>
+        <li>
+          JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)
+        </li>
+        <li>Git/GitHub</li>
+        <li>Avocode, Zeplin, Photoshop</li>
+      </ul>
+      <h1 id="code-examples">Code Examples</h1>
+
+      <div class="language-plaintext highlighter-rouge">
+        <div class="highlight">
+          <pre class="highlight"><code>function bmi(weight, height) {
+  const bmi = weight/(height*height);
+  return bmi &lt;= 18.5 ? 'Underweight': bmi &lt;= 25 ? 'Normal': bmi &lt;= 30 ? 'Overweight': 'Obese';
+}
+</code></pre>
+        </div>
+      </div>
+
+      <h1 id="education">Education</h1>
+
+      <ul>
+        <li>
+          <strong>Belarusian National Technical University</strong>
+          <ul>
+            <li>Micro- and nanosystem technology</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Udemy</strong>
+          <ul>
+            <li>
+              <a href="https://www.udemy.com/course/webdeveloper/">HTML/CSS</a>
+            </li>
+            <li>
+              <a href="https://www.udemy.com/course/javascript_full/"
+                >JavaScript (in process…)</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h1 id="languages">Languages</h1>
+      <ul>
+        <li><strong>Russian</strong> - native speaker.</li>
+        <li><strong>English</strong> - A2 (B1 in process…)</li>
+      </ul>
+    </div>
   </body>
 </html>
